@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1 style="font-family:verdana"> forms element</h1>
+</head>
+<body>
+<form action="http://ilgoloso.altervista.org/mgl.php">
+<p style="font-family:verdana">label</p>
+<label for="fname">nome d'arte:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <p style="font-family:verdana">selezione</p>
+  <label for="cmv">come va?</label>
+  <select id="cmv" name="cmv">
+    <option value="bene">bene</option>
+    <option value="male">una merda</option>
+    <option value="falso">bene (falso)</option>
+    <option value="real">real</option>
+    <option value="prsdmnd">prossima domanda?</option>
+  </select>
+   <p style="font-family:verdana">textarea</p>
+     <textarea name="message" rows="100" cols="200">spiegami al dettaglio come va</textarea>
+     <button type="button" onclick="alert('sei il migliore<3')">CLICCAMI BOMBER!</button>
+     <form action="/action_page.php">
+<p style="font-family:verdana">fildset e legend</p>
+<fieldset>
+<legend style="font-family:verdana">come si chiama la persona che ami di piu?</legend>
+    <label for="fname">nome:</label><br>
+    <input type="text" id="fname" name="fname" value="nome"><br>
+    <label for="lname">cognome:</label><br>
+    <input type="text" id="lname" name="lname" value="cognome"><br><br>
+  </fieldset>
+<p style="font-family:verdana">datalist</p>
+<p style="font-family:verdana">quale artista ti piace di piu?</p>
+<input list="spotify" name="msc">
+  <datalist id="music">
+    <option value="travis scott">
+    <option value="drake">
+    <option value="2llo">
+    <option value="tony boy">
+    <option value="salmo">
+  </datalist>
+  <p style="font-family:verdana">output</p>
+  <p style="font-family:verdana">la percentuale della tua felicita al momento e:</p>
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 
+ 
+ <input type="submit" value="vuoi finire con le risposte?">
+</form>
+
+
+      
+   
+
+   
+
+</body>
+</html>
